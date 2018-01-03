@@ -49,15 +49,11 @@ class List extends React.Component {
         } else {
             return (
                 <div className={'app-container'}>
-                    {this.state.list.map(item => <ListCard key={item.label} {...item}/>)}
+                    {list.map(item => <ListCard key={item.label} {...item}/>)}
                 </div>
             )
         }
     }
-}
-
-function handleExpandClick(props) {
-    console.log(props)
 }
 
 export default List

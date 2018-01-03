@@ -18,6 +18,10 @@ ul, li{
   cursor:pointer
 }
 
+.hide{
+  display:none;
+}
+
 .app-container {
   display:flex;
   width:80%;
